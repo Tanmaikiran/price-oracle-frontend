@@ -13,7 +13,7 @@ export default function Home() {
 
     try {
       const response = await fetch(
-        `https://YOUR_REPLIT_BACKEND_URL/price?token=${token}&network=${network}&timestamp=${timestamp}`
+        `https://dd8a7cff-b952-4262-9b54-3566440848ba-00-rjk2n246xrnp.sisko.replit.dev/price?token=${token}&network=${network}&timestamp=${timestamp}`
       );
       const data = await response.json();
       setResult(data);
